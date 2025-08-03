@@ -32,6 +32,8 @@ src/ ├── components/ │ ├── CartProvider.jsx │ ├── CartWidg
 
 ---
 
+---
+
 ## 🧪 Cómo iniciar el proyecto
 
 1. Clonar el repositorio
@@ -42,13 +44,36 @@ src/ ├── components/ │ ├── CartProvider.jsx │ ├── CartWidg
 
 ---
 
-## 🎯 Objetivo del proyecto
+## 🌐 Deploy en Vercel
 
-> Aprender React y Firebase creando un e-commerce completo, con manejo de rutas, estado global, base de datos y autenticación. La arquitectura está pensada para escalar y mantener código reutilizable y claro.
+El proyecto está desplegado en [Vercel](https://vercel.com), lo que permite visualizarlo en tiempo real desde cualquier dispositivo.
 
----
+🔗 **Link de producción:** [https://proyecto-final-pulega-react1.vercel.app/](#)
 
-## 📝 Autor
+### ⚙️ Variables de entorno
 
-**Patricio**
-# ProyectoFinal-Pulega-React
+Se utilizaron variables `.env` para conectar con Firebase, definidas en Vercel desde el panel:  
+**Project Settings → Environment Variables**  
+Ejemplo:
+
+```env
+VITE_API_KEY=tu_api_key
+VITE_AUTH_DOMAIN=tu_auth_domain
+VITE_PROJECT_ID=tu_project_id
+VITE_STORAGE_BUCKET=tu_storage_bucket
+VITE_MESSAGING_SENDER_ID=tu_messaging_sender_id
+VITE_APP_ID=tu_app_id
+🚀 Cómo hacer tu propio deploy
+- Cloná el repositorio
+- Configurá tu .env con credenciales de Firebase
+- Creá una cuenta en Vercel y conectá tu repo de GitHub
+- Definí las variables de entorno en Vercel
+- Deploy automático y listo 🎉
+
+🎯 Objetivo del proyecto
+Aprender React y Firebase creando un e-commerce completo, con manejo de rutas, estado global, base de datos y autenticación. La arquitectura está pensada para escalar y mantener código reutilizable y claro.
+
+📝 Autor
+Patricio
+ProyectoFinal-Pulega-React
+```
