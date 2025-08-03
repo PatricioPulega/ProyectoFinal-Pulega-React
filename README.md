@@ -51,3 +51,4 @@ src/ ├── components/ │ ├── CartProvider.jsx │ ├── CartWidg
 ## 📝 Autor
 
 **Patricio**
+# ProyectoFinal-Pulega-React
